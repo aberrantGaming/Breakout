@@ -22,9 +22,9 @@ namespace aberrantGaming.Breakout
         public void Initialize()
         {
             _rb = GetComponent<Rigidbody>();
-            _rb.isKinematic = true;
 
             _col = GetComponent<Collider>();
+            Debug.Log($"Collider on {this.name}: {_col}");
         }
 
         public void UpdateMotor()
