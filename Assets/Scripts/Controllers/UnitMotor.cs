@@ -24,7 +24,6 @@ namespace aberrantGaming.Breakout
             _rb = GetComponent<Rigidbody>();
 
             _col = GetComponent<Collider>();
-            Debug.Log($"Collider on {this.name}: {_col}");
         }
 
         public void UpdateMotor()
