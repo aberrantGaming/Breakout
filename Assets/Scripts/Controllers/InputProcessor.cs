@@ -22,7 +22,7 @@ namespace aberrantGaming.Breakout
 
             if (!controller.MovementLocked)
             {
-                HandleInput();
+                HandleMovement();
             }
         }
 
@@ -34,7 +34,7 @@ namespace aberrantGaming.Breakout
             controller.UpdateMotor();
         }
 
-        protected virtual void HandleInput()
+        protected virtual void HandleMovement()
         {
             controller._input = new Vector2(moveInput.x, moveInput.z);
         }

@@ -9,11 +9,9 @@ namespace aberrantGaming.Breakout
 {
     class BrickController : UnitController
     {
-        private void OnCollisionEnter(Collision collision)
+        protected override void HandleCollision(Collision context)
         {
-            Debug.Log($"Collision with {collision.gameObject.name}");
-
-            if (collision.gameObject.GetComponent<BallController>() is null)
+            if (context.gameObject.GetComponent<BallController>() is null)
                 return;
 
             Destroy(this.gameObject);
