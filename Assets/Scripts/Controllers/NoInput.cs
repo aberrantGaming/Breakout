@@ -9,11 +9,11 @@ namespace aberrantGaming.Breakout
 {
     class NoInput : InputProcessor
     {
-        protected override void HandleInput()
+        protected override void HandleMovement()
         {
             moveInput = Vector3.zero;
 
-            base.HandleInput();
+            base.HandleMovement();
         }
     }
 }

@@ -4,11 +4,11 @@ namespace aberrantGaming.Breakout
 {
     class SimpleInput : InputProcessor
     {
-        protected override void HandleInput()
+        protected override void HandleMovement()
         {
             moveInput = transform.forward;
 
-            base.HandleInput();
+            base.HandleMovement();
         }
     }
 }

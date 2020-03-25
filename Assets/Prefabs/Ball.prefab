@@ -88,8 +88,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64a73c54e983d4b48abb2d65e577f53d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 2.5
-  MovementLocked: 1
+  Speed: 5
+  MovementLocked: 0
   _input: {x: 0, y: 0}
   _rb: {fileID: 0}
   _col: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1663221687846565574
 Transform:
   m_ObjectHideFlags: 0
@@ -150,7 +150,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 75c6512ff5bbcad498598f8e1a6b91ff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
